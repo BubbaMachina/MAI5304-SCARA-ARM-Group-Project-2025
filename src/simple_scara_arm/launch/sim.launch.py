@@ -74,7 +74,7 @@ def generate_launch_description():
             'ros2', 'run', 'ros_gz_sim', 'create',
             '-name', 'simple_scara',
             '-string', robot_description,
-            '-x', '0', '-y', '0', '-z', '0.01'
+            '-x', '0', '-y', '0', '-z', '0.01','-Y', '-1.5708'
         ],
         output='screen'
     )
@@ -115,7 +115,17 @@ def generate_launch_description():
     gazebo_bridge = Node(
         package="ros_gz_bridge",
         executable="parameter_bridge",
-        arguments=["/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock"],
+        arguments=[
+            "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock",
+            "/camera/image@sensor_msgs/msg/Image[gz.msgs.Image",
+           
+            # ATTACH: ROS EntityFactory -> Gazebo EntityFactory
+            # Note: Using the @ symbol with [ indicates ROS -> Gazebo flow
+            "/scara/attach@ros_gz_interfaces/msg/EntityFactory@gz.msgs.EntityFactory",
+            
+            # DETACH: ROS Empty -> Gazebo Empty
+            "/scara/detach@std_msgs/msg/Empty@gz.msgs.Empty",
+            ],
         output="screen",
     )
 
@@ -126,8 +136,8 @@ def generate_launch_description():
         # gazebo_launch,
         gazebo_bridge,
         rsp,
-        TimerAction(period=2.0, actions=[spawn]),
+        TimerAction(period=1.0, actions=[spawn]),
         # TimerAction(period=8.0, actions=[controller_manager]),
-        TimerAction(period=4.0, actions=[jsb]),
-        TimerAction(period=6.0, actions=[arm_ctrl]),
+        TimerAction(period=2.0, actions=[jsb]),
+        TimerAction(period=3.0, actions=[arm_ctrl]),
     ])

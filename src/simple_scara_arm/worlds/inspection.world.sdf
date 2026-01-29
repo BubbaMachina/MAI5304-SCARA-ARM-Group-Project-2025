@@ -8,6 +8,10 @@
             name="gz::sim::systems::Physics">
         </plugin>
 
+<!-- <plugin
+  filename="gz-sim-detachable-joint-system"
+  name="gz::sim::systems::DetachableJoint">
+</plugin> -->
 
         <plugin
             filename="gz-sim-user-commands-system"
@@ -46,7 +50,7 @@
     </include>
 
 <model name="red_box">
-    <pose>0.35 0.35 0.1 0 0 0</pose> <link name="link">
+    <pose>-0.3 -0.2 0.1 0 0 0</pose> <link name="link">
         <inertial>
             <mass>0.1</mass>
             <inertia>
@@ -59,7 +63,7 @@
         <collision name="collision">
             <geometry>
                 <box>
-                    <size>0.1 0.1 0.1</size>
+                    <size>0.1 0.1 0.02</size>
                 </box>
             </geometry>
         </collision>
@@ -67,7 +71,7 @@
         <visual name="visual">
             <geometry>
                 <box>
-                    <size>0.1 0.1 0.1</size>
+                    <size>0.1 0.1 0.02</size>
                 </box>
             </geometry>
             <material>
@@ -82,7 +86,7 @@
   <static>true</static>
 
   <!-- Pose: above table, looking down -->
-  <pose>0 0 2 0 1.57 0</pose>
+  <pose>0 0 2 1.57 1.57 0</pose>
 
   <link name="camera_link">
 

@@ -90,7 +90,44 @@
         <color rgba="0.5 0.1 0.1 1.0"/>
       </material>
     </visual>
+
+
+    <collision name="link3_collision">
+      <geometry>
+        <cylinder radius="0.02" length="0.08"/>
+      </geometry>
+      <origin xyz="0 0 -0.05" rpy="0 0 0"/>
+    </collision>
+
   </link>
+
+  <!-- <gazebo reference="link3">
+    <plugin filename="gz-sim-vacuum-gripper-system" name="gz::sim::systems::VacuumGripper">
+      <topic>/switch</topic> <link_name>link3</link_name>
+      <max_distance>0.2</max_distance>
+      <fixed>true</fixed>
+    </plugin>
+  </gazebo> -->
+
+  <!-- <gazebo reference="link3">
+  <preserveFixedJoint>true</preserveFixedJoint>
+</gazebo> -->
+
+<gazebo>
+  <plugin
+    filename="gz-sim-detachable-joint-system"
+    name="gz::sim::systems::DetachableJoint">
+    <parent_link>link3</parent_link>
+    <child_model>red_box</child_model>
+    <child_link>link</child_link>
+    <attached>false</attached>
+
+    <attach_topic>/scara/attach</attach_topic>
+  <detach_topic>/scara/detach</detach_topic>
+  </plugin>
+</gazebo>
+
+
 
   <!-- End effector -->
   <link name="ee_link">
@@ -143,7 +180,7 @@
     <axis xyz="0 0 -1"/>
     <dynamics damping="10.0" friction="5.0"/>
     
-    <limit lower="0" upper="0.1" effort="100" velocity="0.2"/>
+    <limit lower="0" upper="0.15" effort="100" velocity="0.2"/>
   </joint>
 
   <!-- Fixed Joint (Link3 to End Effector) -->
