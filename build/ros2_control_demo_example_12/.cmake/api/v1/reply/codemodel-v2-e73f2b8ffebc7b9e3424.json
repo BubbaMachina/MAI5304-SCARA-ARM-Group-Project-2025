@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6dc4f5e018cf5e858c13.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_control_demo_example_12",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "passthrough_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-passthrough_controller-768957b8171bcfc639a8.json",
+					"name" : "passthrough_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "passthrough_controller_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-passthrough_controller_parameters-490f450d746cbb43023a.json",
+					"name" : "passthrough_controller_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_control_demo_example_12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_control_demo_example_12-4edf43cfe6e86049d727.json",
+					"name" : "ros2_control_demo_example_12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_control_demo_example_12_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_control_demo_example_12_uninstall-cad3d721a88c8e121689.json",
+					"name" : "ros2_control_demo_example_12_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-00f8e28a1148aa2820fc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/bubba/code/ros2_ws_code/build/ros2_control_demo_example_12",
+		"source" : "/mnt/c/Users/bubba/code/ros2_ws_code/src/ros2_control_demos/example_12"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

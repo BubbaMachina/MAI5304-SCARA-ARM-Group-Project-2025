@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/simple_scara_arm/simple_scara_arm.egg-info/PKG-INFO
+writing dependency_links to ../../build/simple_scara_arm/simple_scara_arm.egg-info/dependency_links.txt
+writing requirements to ../../build/simple_scara_arm/simple_scara_arm.egg-info/requires.txt
+writing top-level names to ../../build/simple_scara_arm/simple_scara_arm.egg-info/top_level.txt
+reading manifest file '../../build/simple_scara_arm/simple_scara_arm.egg-info/SOURCES.txt'
+writing manifest file '../../build/simple_scara_arm/simple_scara_arm.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/sim.launch.py -> /mnt/c/Users/bubba/code/ros2_ws_code/install/simple_scara_arm/share/simple_scara_arm/launch
+copying urdf/myrobot2.urdf -> /mnt/c/Users/bubba/code/ros2_ws_code/install/simple_scara_arm/share/simple_scara_arm/urdf
+running install_egg_info
+removing '/mnt/c/Users/bubba/code/ros2_ws_code/install/simple_scara_arm/lib/python3.12/site-packages/simple_scara_arm-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/simple_scara_arm/simple_scara_arm.egg-info to /mnt/c/Users/bubba/code/ros2_ws_code/install/simple_scara_arm/lib/python3.12/site-packages/simple_scara_arm-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/mnt/c/Users/bubba/code/ros2_ws_code/build/simple_scara_arm/install.log'

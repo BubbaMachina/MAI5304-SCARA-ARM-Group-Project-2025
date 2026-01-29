@@ -1,0 +1,33 @@
+[0.000000] (-) TimerEvent: {}
+[0.000259] (-) JobUnselected: {'identifier': 'lab4'}
+[0.000408] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.000524] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_1'}
+[0.000630] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_10'}
+[0.000757] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_11'}
+[0.000873] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_12'}
+[0.000970] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_13'}
+[0.001068] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_14'}
+[0.001173] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_15'}
+[0.001296] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_16'}
+[0.001547] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_17'}
+[0.001645] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_2'}
+[0.001751] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_3'}
+[0.001856] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_4'}
+[0.001961] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_5'}
+[0.002062] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_6'}
+[0.002164] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_7'}
+[0.002263] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_8'}
+[0.002364] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_9'}
+[0.002471] (-) JobUnselected: {'identifier': 'ros2_control_demos'}
+[0.002565] (-) JobUnselected: {'identifier': 'scara_arm'}
+[0.002662] (simple_scara_arm) JobQueued: {'identifier': 'simple_scara_arm', 'dependencies': OrderedDict()}
+[0.002793] (simple_scara_arm) JobStarted: {'identifier': 'simple_scara_arm'}
+[0.098904] (-) TimerEvent: {}
+[0.199245] (-) TimerEvent: {}
+[0.299618] (-) TimerEvent: {}
+[0.399959] (-) TimerEvent: {}
+[0.500355] (-) TimerEvent: {}
+[0.600743] (-) TimerEvent: {}
+[0.701123] (-) TimerEvent: {}
+[0.738154] (simple_scara_arm) JobEnded: {'identifier': 'simple_scara_arm', 'rc': 0}
+[0.742050] (-) EventReactorShutdown: {}

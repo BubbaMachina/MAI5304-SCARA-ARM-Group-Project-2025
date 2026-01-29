@@ -1,0 +1,10 @@
+/mnt/c/Users/bubba/code/ros2_ws_code/build/ros2_control_demo_example_9/CMakeFiles/uninstall.dir
+/mnt/c/Users/bubba/code/ros2_ws_code/build/ros2_control_demo_example_9/CMakeFiles/ros2_control_demo_example_9_uninstall.dir
+/mnt/c/Users/bubba/code/ros2_ws_code/build/ros2_control_demo_example_9/CMakeFiles/ros2_control_demo_example_9.dir
+/mnt/c/Users/bubba/code/ros2_ws_code/build/ros2_control_demo_example_9/CMakeFiles/test.dir
+/mnt/c/Users/bubba/code/ros2_ws_code/build/ros2_control_demo_example_9/CMakeFiles/edit_cache.dir
+/mnt/c/Users/bubba/code/ros2_ws_code/build/ros2_control_demo_example_9/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/bubba/code/ros2_ws_code/build/ros2_control_demo_example_9/CMakeFiles/list_install_components.dir
+/mnt/c/Users/bubba/code/ros2_ws_code/build/ros2_control_demo_example_9/CMakeFiles/install.dir
+/mnt/c/Users/bubba/code/ros2_ws_code/build/ros2_control_demo_example_9/CMakeFiles/install/local.dir
+/mnt/c/Users/bubba/code/ros2_ws_code/build/ros2_control_demo_example_9/CMakeFiles/install/strip.dir

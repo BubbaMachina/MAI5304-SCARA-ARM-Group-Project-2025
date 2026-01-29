@@ -1,0 +1,33 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    arm_position_controller:
+      # type: forward_command_controller/ForwardCommandController # One number per topic
+      type: joint_trajectory_controller/JointTrajectoryController
+
+arm_position_controller:
+  ros__parameters:
+    joints:
+      - joint1 
+      - joint2
+      - joint3
+
+    command_interfaces:
+      - position
+
+    state_interfaces:
+      - position
+      - velocity
+
+    gains:
+      joint1: {p: 100.0, i: 0.01, d: 10.0}
+      joint2: {p: 100.0, i: 0.01, d: 10.0}
+      joint3: {p: 500.0, i: 0.01, d: 20.0}
+
+    # Safety: Prevents the robot from moving if the goal is too far away abruptly
+    open_loop_control: true
+    allow_partial_joints_goal: false

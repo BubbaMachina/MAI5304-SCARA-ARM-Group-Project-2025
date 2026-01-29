@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<robot name="simple_scara">
+
+  <!-- Base link -->
+  <link name="base_link">
+     <inertial>
+  <origin xyz="0 0 0" rpy="0 0 0"/>
+  <mass value="10.0"/>
+  <inertia
+    ixx="0.5" ixy="0.0" ixz="0.0"
+    iyy="0.5" iyz="0.0"
+    izz="0.5"/>
+</inertial>
+    <visual>
+      <geometry>
+        <cylinder radius="0.05" length="0.2"/>
+      </geometry>
+        <origin xyz="0 0 0.1" rpy="0 0 0"/>
+
+      <material name="gray">
+        <color rgba="0.3 0.3 0.3 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Link 1 -->
+  <link name="link1">
+  <inertial>
+  <origin xyz="0 0 0" rpy="0 0 0"/>
+  <mass value="1.0"/>
+  <inertia
+    ixx="0.01" ixy="0.0" ixz="0.0"
+    iyy="0.01" iyz="0.0"
+    izz="0.01"/>
+</inertial>
+    <visual>
+      <geometry>
+        <box size="0.25 0.05 0.02"/>
+      </geometry>
+      <origin xyz="0.15 0 0" rpy="0 0 0"/>
+      <material name="blue">
+        <color rgba="0.1 0.3 0.5 1.0"/>
+      </material>
+    </visual>
+
+      <collision>
+    <geometry>
+        <box size="0.25 0.05 0.02"/>
+    </geometry>
+  </collision>
+  </link>
+
+  <!-- Link 2 -->
+  <link name="link2">
+  <inertial>
+  <origin xyz="0 0 0" rpy="0 0 0"/>
+  <mass value="1.0"/>
+  <inertia
+    ixx="0.01" ixy="0.0" ixz="0.0"
+    iyy="0.01" iyz="0.0"
+    izz="0.01"/>
+</inertial>
+    <visual>
+      <geometry>
+        <box size="0.24 0.05 0.02"/>
+      </geometry>
+      <origin xyz="0.1 0 0" rpy="0 0 0"/>
+      <material name="green">
+        <color rgba="0.2 0.5 0.1 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Vertical prismatic link -->
+  <link name="link3">
+  <inertial>
+  <origin xyz="0 0 0" rpy="0 0 0"/>
+  <mass value="1.0"/>
+  <inertia
+    ixx="0.01" ixy="0.0" ixz="0.0"
+    iyy="0.01" iyz="0.0"
+    izz="0.01"/>
+</inertial>
+    <visual>
+      <geometry>
+        <cylinder radius="0.02" length="0.08"/>
+      </geometry>
+      <origin xyz="0 0 -0.05" rpy="0 0 0"/>
+      <material name="red">
+        <color rgba="0.5 0.1 0.1 1.0"/>
+      </material>
+    </visual>
+
+
+    <collision name="link3_collision">
+      <geometry>
+        <cylinder radius="0.02" length="0.08"/>
+      </geometry>
+      <origin xyz="0 0 -0.05" rpy="0 0 0"/>
+    </collision>
+
+  </link>
+
+  <!-- <gazebo reference="link3">
+    <plugin filename="gz-sim-vacuum-gripper-system" name="gz::sim::systems::VacuumGripper">
+      <topic>/switch</topic> <link_name>link3</link_name>
+      <max_distance>0.2</max_distance>
+      <fixed>true</fixed>
+    </plugin>
+  </gazebo> -->
+
+  <!-- <gazebo reference="link3">
+  <preserveFixedJoint>true</preserveFixedJoint>
+</gazebo> -->
+
+<gazebo>
+  <plugin
+    filename="gz-sim-detachable-joint-system"
+    name="gz::sim::systems::DetachableJoint">
+    <parent_link>link3</parent_link>
+    <child_model>red_box</child_model>
+    <child_link>link</child_link>
+    <attached>false</attached>
+
+    <attach_topic>/scara/attach</attach_topic>
+  <detach_topic>/scara/detach</detach_topic>
+  </plugin>
+</gazebo>
+
+
+
+  <!-- End effector -->
+  <link name="ee_link">
+    <visual>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <material name="yellow">
+        <color rgba="0.7 0.7 0.1 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+<link name="world"/>
+
+<joint name="world_fixed" type="fixed">
+  <parent link="world"/>
+  <child link="base_link"/>
+  <origin xyz="0 0 0" rpy="0 0 0"/>
+</joint>
+
+
+  <!-- Revolute Joint 1 (Base to Link1) -->
+  <joint name="joint1" type="revolute">
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <origin xyz="0 0 0.21" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <dynamics damping="0.7" friction="0.5" />
+    <limit lower="-3.14" upper="3.14" effort="5" velocity="1"/>
+  </joint>
+
+  <!-- Revolute Joint 2 (Link1 to Link2) -->
+  <joint name="joint2" type="revolute">
+    <parent link="link1"/>
+    <child link="link2"/>
+    <origin xyz="0.25 0 0.02" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+        <dynamics damping="0.7" friction="0.5" />
+
+    <limit lower="-3.14" upper="3.14" effort="5" velocity="1"/>
+  </joint>
+
+  <!-- Prismatic Joint (Z lift) -->
+  <joint name="joint3" type="prismatic">
+    <parent link="link2"/>
+    <child link="link3"/>
+    <origin xyz="0.2 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 -1"/>
+    <dynamics damping="10.0" friction="5.0"/>
+    
+    <limit lower="0" upper="0.15" effort="100" velocity="0.2"/>
+  </joint>
+
+  <!-- Fixed Joint (Link3 to End Effector) -->
+  <joint name="ee_fixed" type="fixed">
+    <parent link="link3"/>
+    <child link="ee_link"/>
+    <origin xyz="0 0 -0.11" rpy="0 0 0"/>
+  </joint>
+
+<ros2_control name="GazeboSystem" type="system">
+  <hardware>
+    <!-- <plugin>mock_components/GenericSystem</plugin> -->
+    <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+
+
+  </hardware>
+
+  <joint name="joint1">
+    <command_interface name="position"/>
+    <state_interface name="position"/>
+    <state_interface name="velocity"/>
+  </joint>
+
+  <joint name="joint2">
+    <command_interface name="position"/>
+    <state_interface name="position"/>
+    <state_interface name="velocity"/>
+  </joint>
+
+  <joint name="joint3">
+    <command_interface name="position"/>
+    <state_interface name="position"/>
+    <state_interface name="velocity"/>
+  </joint>
+</ros2_control>
+
+<gazebo>
+  <plugin filename="gz_ros2_control-system"
+          name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+          <parameters>/mnt/c/Users/bubba/code/ros2_ws_code/src/simple_scara_arm/config/controllers.yaml</parameters>
+
+  </plugin>
+</gazebo>
+
+
+</robot>

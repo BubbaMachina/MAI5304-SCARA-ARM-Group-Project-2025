@@ -1,0 +1,19 @@
+[3.000s] Invoking command in '/mnt/c/Users/bubba/code/ros2_ws_code/src/scara_arm': PYTHONPATH=/mnt/c/Users/bubba/code/ros2_ws_code/build/scara_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/bubba/code/ros2_ws_code/install/scara_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scara_arm build --build-base /mnt/c/Users/bubba/code/ros2_ws_code/build/scara_arm/build install --record /mnt/c/Users/bubba/code/ros2_ws_code/build/scara_arm/install.log --single-version-externally-managed install_data
+[3.646s] running egg_info
+[3.675s] writing ../../build/scara_arm/scara_arm.egg-info/PKG-INFO
+[3.679s] writing dependency_links to ../../build/scara_arm/scara_arm.egg-info/dependency_links.txt
+[3.684s] writing requirements to ../../build/scara_arm/scara_arm.egg-info/requires.txt
+[3.686s] writing top-level names to ../../build/scara_arm/scara_arm.egg-info/top_level.txt
+[3.761s] reading manifest file '../../build/scara_arm/scara_arm.egg-info/SOURCES.txt'
+[3.806s] writing manifest file '../../build/scara_arm/scara_arm.egg-info/SOURCES.txt'
+[3.808s] running build
+[3.809s] running build_py
+[3.820s] running install
+[3.829s] running install_lib
+[3.890s] running install_data
+[3.907s] running install_egg_info
+[3.942s] removing '/mnt/c/Users/bubba/code/ros2_ws_code/install/scara_arm/lib/python3.12/site-packages/scara_arm-0.0.0-py3.12.egg-info' (and everything under it)
+[3.973s] Copying ../../build/scara_arm/scara_arm.egg-info to /mnt/c/Users/bubba/code/ros2_ws_code/install/scara_arm/lib/python3.12/site-packages/scara_arm-0.0.0-py3.12.egg-info
+[4.109s] running install_scripts
+[4.384s] writing list of installed files to '/mnt/c/Users/bubba/code/ros2_ws_code/build/scara_arm/install.log'
+[4.419s] Invoked command in '/mnt/c/Users/bubba/code/ros2_ws_code/src/scara_arm' returned '0': PYTHONPATH=/mnt/c/Users/bubba/code/ros2_ws_code/build/scara_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/bubba/code/ros2_ws_code/install/scara_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scara_arm build --build-base /mnt/c/Users/bubba/code/ros2_ws_code/build/scara_arm/build install --record /mnt/c/Users/bubba/code/ros2_ws_code/build/scara_arm/install.log --single-version-externally-managed install_data

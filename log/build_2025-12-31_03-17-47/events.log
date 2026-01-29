@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.000421] (scara_arm) JobQueued: {'identifier': 'scara_arm', 'dependencies': OrderedDict()}
+[0.000613] (simple_scara_arm) JobQueued: {'identifier': 'simple_scara_arm', 'dependencies': OrderedDict()}
+[0.000782] (scara_arm) JobStarted: {'identifier': 'scara_arm'}
+[0.098683] (-) TimerEvent: {}
+[0.188195] (simple_scara_arm) JobStarted: {'identifier': 'simple_scara_arm'}
+[0.199143] (-) TimerEvent: {}
+[0.299686] (-) TimerEvent: {}
+[0.400762] (-) TimerEvent: {}
+[0.501892] (-) TimerEvent: {}
+[0.603489] (-) TimerEvent: {}
+[0.705615] (-) TimerEvent: {}
+[0.806293] (-) TimerEvent: {}
+[0.907296] (-) TimerEvent: {}
+[1.007817] (-) TimerEvent: {}
+[1.108713] (-) TimerEvent: {}
+[1.211569] (-) TimerEvent: {}
+[1.312271] (-) TimerEvent: {}
+[1.414168] (-) TimerEvent: {}
+[1.514666] (-) TimerEvent: {}
+[1.615449] (-) TimerEvent: {}
+[1.716089] (-) TimerEvent: {}
+[1.816717] (-) TimerEvent: {}
+[1.917773] (-) TimerEvent: {}
+[2.018330] (-) TimerEvent: {}
+[2.119008] (-) TimerEvent: {}
+[2.220540] (-) TimerEvent: {}
+[2.321777] (-) TimerEvent: {}
+[2.423964] (-) TimerEvent: {}
+[2.524590] (-) TimerEvent: {}
+[2.625154] (-) TimerEvent: {}
+[2.725701] (-) TimerEvent: {}
+[2.826733] (-) TimerEvent: {}
+[2.927332] (-) TimerEvent: {}
+[3.027824] (-) TimerEvent: {}
+[3.128380] (-) TimerEvent: {}
+[3.231939] (-) TimerEvent: {}
+[3.335584] (-) TimerEvent: {}
+[3.436248] (-) TimerEvent: {}
+[3.538118] (-) TimerEvent: {}
+[3.639205] (-) TimerEvent: {}
+[3.739833] (-) TimerEvent: {}
+[3.840378] (-) TimerEvent: {}
+[3.941030] (-) TimerEvent: {}
+[4.041981] (-) TimerEvent: {}
+[4.143940] (-) TimerEvent: {}
+[4.244818] (-) TimerEvent: {}
+[4.345429] (-) TimerEvent: {}
+[4.446254] (-) TimerEvent: {}
+[4.546853] (-) TimerEvent: {}
+[4.647422] (-) TimerEvent: {}
+[4.748029] (-) TimerEvent: {}
+[4.848812] (-) TimerEvent: {}
+[4.949534] (-) TimerEvent: {}
+[5.051382] (-) TimerEvent: {}
+[5.151954] (-) TimerEvent: {}
+[5.253783] (-) TimerEvent: {}
+[5.354567] (-) TimerEvent: {}
+[5.455472] (-) TimerEvent: {}
+[5.556066] (-) TimerEvent: {}
+[5.658910] (-) TimerEvent: {}
+[5.759700] (-) TimerEvent: {}
+[5.860257] (-) TimerEvent: {}
+[5.960874] (-) TimerEvent: {}
+[6.043671] (scara_arm) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/scara_arm', 'build', '--build-base', '/mnt/c/Users/bubba/code/ros2_ws_code/build/scara_arm/build', 'install', '--record', '/mnt/c/Users/bubba/code/ros2_ws_code/build/scara_arm/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Users/bubba/code/ros2_ws_code/src/scara_arm', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'bubba', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/bubba/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bubba', 'TERM_PROGRAM_VERSION': '1.107.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-0002b3b1-2373-406f-8aa2-11c51a4307e4.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/bubba/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/bubba/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Users/bubba/code/ros2_ws_code/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bubba', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/28842_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/bubba/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/bubba/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/bubba/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/app/bubba/product/21c/dbhomeXE/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.4.0/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Common Files/Acronis/SnapAPI/:/mnt/c/Program Files (x86)/Common Files/Acronis/VirtualFile/:/mnt/c/Program Files (x86)/Common Files/Acronis/VirtualFile64/:/mnt/c/Users/bubba/apex/ords-latest/bin:/Docker/host/bin:/mnt/c/Program Files/MATLAB/R2023b/runtime/win64:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Java/jre1.8.0_202:/mnt/c/Program Files/Common Files/Autodesk Shared/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/bubba/anaconda3:/mnt/c/Users/bubba/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/bubba/anaconda3/Library/usr/bin:/mnt/c/Users/bubba/anaconda3/Library/bin:/mnt/c/Users/bubba/anaconda3/Scripts:/mnt/c/Users/bubba/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/bubba/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/bubba/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/bubba/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/bubba/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/bubba/AppData/Roaming/npm:/mnt/c/Users/bubba/AppData/Local/Programs/Ollama:/mnt/c/Users/bubba/.lmstudio/bin:/mnt/c/Users/bubba/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76c0d9b12b.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/mnt/c/Users/bubba/code/ros2_ws_code/install/simple_scara_arm:/mnt/c/Users/bubba/code/ros2_ws_code/install/scara_arm:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/mnt/c/Users/bubba/code/ros2_ws_code/build/scara_arm', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/bubba/code/ros2_ws_code/build/scara_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/bubba/code/ros2_ws_code/install/scara_arm/lib/python3.12/site-packages:/mnt/c/Users/bubba/code/ros2_ws_code/install/simple_scara_arm/lib/python3.12/site-packages:/mnt/c/Users/bubba/code/ros2_ws_code/install/scara_arm/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}, 'shell': False}
+[6.060960] (-) TimerEvent: {}
+[6.094119] (simple_scara_arm) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/simple_scara_arm', 'build', '--build-base', '/mnt/c/Users/bubba/code/ros2_ws_code/build/simple_scara_arm/build', 'install', '--record', '/mnt/c/Users/bubba/code/ros2_ws_code/build/simple_scara_arm/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Users/bubba/code/ros2_ws_code/src/simple_scara_arm', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'bubba', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/bubba/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bubba', 'TERM_PROGRAM_VERSION': '1.107.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-0002b3b1-2373-406f-8aa2-11c51a4307e4.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/bubba/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/bubba/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Users/bubba/code/ros2_ws_code/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bubba', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/28842_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/bubba/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/bubba/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/bubba/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/app/bubba/product/21c/dbhomeXE/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.4.0/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Common Files/Acronis/SnapAPI/:/mnt/c/Program Files (x86)/Common Files/Acronis/VirtualFile/:/mnt/c/Program Files (x86)/Common Files/Acronis/VirtualFile64/:/mnt/c/Users/bubba/apex/ords-latest/bin:/Docker/host/bin:/mnt/c/Program Files/MATLAB/R2023b/runtime/win64:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Java/jre1.8.0_202:/mnt/c/Program Files/Common Files/Autodesk Shared/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/bubba/anaconda3:/mnt/c/Users/bubba/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/bubba/anaconda3/Library/usr/bin:/mnt/c/Users/bubba/anaconda3/Library/bin:/mnt/c/Users/bubba/anaconda3/Scripts:/mnt/c/Users/bubba/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/bubba/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/bubba/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/bubba/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/bubba/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/bubba/AppData/Roaming/npm:/mnt/c/Users/bubba/AppData/Local/Programs/Ollama:/mnt/c/Users/bubba/.lmstudio/bin:/mnt/c/Users/bubba/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76c0d9b12b.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/mnt/c/Users/bubba/code/ros2_ws_code/install/simple_scara_arm:/mnt/c/Users/bubba/code/ros2_ws_code/install/scara_arm:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/mnt/c/Users/bubba/code/ros2_ws_code/build/simple_scara_arm', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/bubba/code/ros2_ws_code/build/simple_scara_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/bubba/code/ros2_ws_code/install/simple_scara_arm/lib/python3.12/site-packages:/mnt/c/Users/bubba/code/ros2_ws_code/install/simple_scara_arm/lib/python3.12/site-packages:/mnt/c/Users/bubba/code/ros2_ws_code/install/scara_arm/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}, 'shell': False}
+[6.161101] (-) TimerEvent: {}
+[6.262167] (-) TimerEvent: {}
+[6.362880] (-) TimerEvent: {}
+[6.467377] (-) TimerEvent: {}
+[6.567895] (-) TimerEvent: {}
+[6.671058] (-) TimerEvent: {}
+[6.771752] (-) TimerEvent: {}
+[6.873143] (-) TimerEvent: {}
+[6.973917] (-) TimerEvent: {}
+[7.074545] (-) TimerEvent: {}
+[7.176710] (-) TimerEvent: {}
+[7.277203] (-) TimerEvent: {}
+[7.377706] (-) TimerEvent: {}
+[7.478242] (-) TimerEvent: {}
+[7.578840] (-) TimerEvent: {}
+[7.660963] (scara_arm) StdoutLine: {'line': b'running egg_info\n'}
+[7.679002] (-) TimerEvent: {}
+[7.682340] (simple_scara_arm) StdoutLine: {'line': b'running egg_info\n'}
+[7.719501] (scara_arm) StdoutLine: {'line': b'writing ../../build/scara_arm/scara_arm.egg-info/PKG-INFO\n'}
+[7.733102] (scara_arm) StdoutLine: {'line': b'writing dependency_links to ../../build/scara_arm/scara_arm.egg-info/dependency_links.txt\n'}
+[7.742722] (simple_scara_arm) StdoutLine: {'line': b'writing ../../build/simple_scara_arm/simple_scara_arm.egg-info/PKG-INFO\n'}
+[7.746664] (scara_arm) StdoutLine: {'line': b'writing requirements to ../../build/scara_arm/scara_arm.egg-info/requires.txt\n'}
+[7.751184] (scara_arm) StdoutLine: {'line': b'writing top-level names to ../../build/scara_arm/scara_arm.egg-info/top_level.txt\n'}
+[7.753958] (simple_scara_arm) StdoutLine: {'line': b'writing dependency_links to ../../build/simple_scara_arm/simple_scara_arm.egg-info/dependency_links.txt\n'}
+[7.764223] (simple_scara_arm) StdoutLine: {'line': b'writing requirements to ../../build/simple_scara_arm/simple_scara_arm.egg-info/requires.txt\n'}
+[7.773265] (simple_scara_arm) StdoutLine: {'line': b'writing top-level names to ../../build/simple_scara_arm/simple_scara_arm.egg-info/top_level.txt\n'}
+[7.779184] (-) TimerEvent: {}
+[7.879706] (-) TimerEvent: {}
+[7.905901] (scara_arm) StdoutLine: {'line': b"reading manifest file '../../build/scara_arm/scara_arm.egg-info/SOURCES.txt'\n"}
+[7.952712] (simple_scara_arm) StdoutLine: {'line': b"reading manifest file '../../build/simple_scara_arm/simple_scara_arm.egg-info/SOURCES.txt'\n"}
+[7.979847] (-) TimerEvent: {}
+[8.008111] (scara_arm) StdoutLine: {'line': b"writing manifest file '../../build/scara_arm/scara_arm.egg-info/SOURCES.txt'\n"}
+[8.012718] (scara_arm) StdoutLine: {'line': b'running build\n'}
+[8.014069] (scara_arm) StdoutLine: {'line': b'running build_py\n'}
+[8.037552] (scara_arm) StdoutLine: {'line': b'running install\n'}
+[8.056646] (simple_scara_arm) StdoutLine: {'line': b"writing manifest file '../../build/simple_scara_arm/simple_scara_arm.egg-info/SOURCES.txt'\n"}
+[8.057940] (scara_arm) StdoutLine: {'line': b'running install_lib\n'}
+[8.063536] (simple_scara_arm) StdoutLine: {'line': b'running build\n'}
+[8.064503] (simple_scara_arm) StdoutLine: {'line': b'running build_py\n'}
+[8.080025] (-) TimerEvent: {}
+[8.090290] (simple_scara_arm) StdoutLine: {'line': b'running install\n'}
+[8.108112] (simple_scara_arm) StdoutLine: {'line': b'running install_lib\n'}
+[8.180143] (-) TimerEvent: {}
+[8.205381] (scara_arm) StdoutLine: {'line': b'running install_data\n'}
+[8.243158] (scara_arm) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.250294] (simple_scara_arm) StdoutLine: {'line': b'running install_data\n'}
+[8.280316] (-) TimerEvent: {}
+[8.308249] (scara_arm) StdoutLine: {'line': b"removing '/mnt/c/Users/bubba/code/ros2_ws_code/install/scara_arm/lib/python3.12/site-packages/scara_arm-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[8.311253] (simple_scara_arm) StdoutLine: {'line': b'copying launch/sim.launch.py -> /mnt/c/Users/bubba/code/ros2_ws_code/install/simple_scara_arm/share/simple_scara_arm/launch\n'}
+[8.358558] (simple_scara_arm) StdoutLine: {'line': b'copying urdf/myrobot2.urdf -> /mnt/c/Users/bubba/code/ros2_ws_code/install/simple_scara_arm/share/simple_scara_arm/urdf\n'}
+[8.380444] (-) TimerEvent: {}
+[8.390332] (scara_arm) StdoutLine: {'line': b'Copying ../../build/scara_arm/scara_arm.egg-info to /mnt/c/Users/bubba/code/ros2_ws_code/install/scara_arm/lib/python3.12/site-packages/scara_arm-0.0.0-py3.12.egg-info\n'}
+[8.407043] (simple_scara_arm) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.480621] (-) TimerEvent: {}
+[8.481386] (simple_scara_arm) StdoutLine: {'line': b"removing '/mnt/c/Users/bubba/code/ros2_ws_code/install/simple_scara_arm/lib/python3.12/site-packages/simple_scara_arm-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[8.564661] (simple_scara_arm) StdoutLine: {'line': b'Copying ../../build/simple_scara_arm/simple_scara_arm.egg-info to /mnt/c/Users/bubba/code/ros2_ws_code/install/simple_scara_arm/lib/python3.12/site-packages/simple_scara_arm-0.0.0-py3.12.egg-info\n'}
+[8.580717] (-) TimerEvent: {}
+[8.681377] (-) TimerEvent: {}
+[8.728313] (scara_arm) StdoutLine: {'line': b'running install_scripts\n'}
+[8.781467] (-) TimerEvent: {}
+[8.884073] (-) TimerEvent: {}
+[8.893881] (simple_scara_arm) StdoutLine: {'line': b'running install_scripts\n'}
+[8.984227] (-) TimerEvent: {}
+[9.084789] (-) TimerEvent: {}
+[9.185370] (-) TimerEvent: {}
+[9.286687] (-) TimerEvent: {}
+[9.376366] (scara_arm) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/bubba/code/ros2_ws_code/build/scara_arm/install.log'\n"}
+[9.388560] (-) TimerEvent: {}
+[9.489780] (-) TimerEvent: {}
+[9.508457] (scara_arm) CommandEnded: {'returncode': 0}
+[9.589909] (-) TimerEvent: {}
+[9.648831] (simple_scara_arm) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/bubba/code/ros2_ws_code/build/simple_scara_arm/install.log'\n"}
+[9.690063] (-) TimerEvent: {}
+[9.794220] (-) TimerEvent: {}
+[9.897406] (-) TimerEvent: {}
+[10.002348] (-) TimerEvent: {}
+[10.032785] (scara_arm) JobEnded: {'identifier': 'scara_arm', 'rc': 0}
+[10.050876] (simple_scara_arm) CommandEnded: {'returncode': 0}
+[10.102537] (-) TimerEvent: {}
+[10.203292] (-) TimerEvent: {}
+[10.303847] (-) TimerEvent: {}
+[10.404550] (-) TimerEvent: {}
+[10.507336] (-) TimerEvent: {}
+[10.573513] (simple_scara_arm) JobEnded: {'identifier': 'simple_scara_arm', 'rc': 0}
+[10.589478] (-) EventReactorShutdown: {}
